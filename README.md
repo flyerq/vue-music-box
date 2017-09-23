@@ -13,7 +13,7 @@
 
 ## 相关链接
 
-[Demo链接](https://app.flyerq.com/minesweeper/ "Demo")
+[在线Demo](https://flyerq.github.io/vue-music-box/ "Demo")
 
 ## Demo 截图
 
