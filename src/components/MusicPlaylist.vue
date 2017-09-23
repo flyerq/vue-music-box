@@ -75,10 +75,12 @@ export default {
         }
         nextMusicItem = this.items[nextIndex]
       } else if (playMode === 'random') {
-        nextIndex = Math.floor(Math.random() * (this.items.length - 1))
-        let items = [...this.items]
-        items.splice(this.currentMusicIndex, 1)
-        nextMusicItem = items[nextIndex]
+        if (this.items.length > 1) {
+          nextIndex = Math.floor(Math.random() * (this.items.length - 1))
+          let items = [...this.items]
+          items.splice(this.currentMusicIndex, 1)
+          nextMusicItem = items[nextIndex]
+        }
       }
 
       return nextMusicItem
