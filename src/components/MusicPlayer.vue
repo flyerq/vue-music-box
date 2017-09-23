@@ -136,6 +136,7 @@ export default {
   methods: {
     async getMusic (musicItem) {
       this.currentMusic = await fetchMusic(musicItem.id)
+      this.$refs.audio && this.$refs.audio.load()
     },
 
     switchPlayMode () {
