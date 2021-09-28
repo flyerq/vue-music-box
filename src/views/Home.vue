@@ -38,7 +38,7 @@ export default {
       loading: false,
       songCount: 0,
       page: parseInt(this.$route.query.p) || 1,
-      pageItems: 20,
+      pageItems: 50,
       items: []
     }
   },

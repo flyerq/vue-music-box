@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { eventBus } from '@/utils'
-const baseUrl = 'https://api.imjad.cn/cloudmusic/'
+const baseUrl = 'https://api.obfs.dev/api/netease/'
 let store = {
   favorites: [],
   playlist: []
